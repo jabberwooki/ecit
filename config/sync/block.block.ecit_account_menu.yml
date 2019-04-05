@@ -1,4 +1,4 @@
-uuid: 7c8afadd-5678-45dd-9fb8-3fe9e8e9d4f2
+uuid: 2f43d378-97f3-4462-a08b-afc1d574f3da
 langcode: fr
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - ecit
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: bartik_account_menu
-theme: bartik
-region: secondary_menu
+id: ecit_account_menu
+theme: ecit
+region: navigation
 weight: 0
 provider: null
 plugin: 'system_menu_block:account'

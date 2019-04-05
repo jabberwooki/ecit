@@ -1,16 +1,16 @@
-uuid: b5d05c8b-d8fa-4539-b0f3-08e929b514d9
+uuid: 7eca89fe-8d7a-4d74-a7de-00c6b5fcdec6
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - ecit
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: bartik_breadcrumbs
-theme: bartik
-region: breadcrumb
+id: ecit_breadcrumbs
+theme: ecit
+region: navigation
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

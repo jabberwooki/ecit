@@ -1,0 +1,26 @@
+uuid: 0d78cd06-c8b3-4bc4-b8fd-0029fcaeba84
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ecit
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: ecit_main_menu
+theme: ecit
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

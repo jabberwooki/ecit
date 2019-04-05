@@ -1,4 +1,4 @@
-uuid: 3c8a7c0e-dde4-4190-8f60-4a8eaf7dad40
+uuid: fe01d3e0-74e7-4933-a8aa-2d5fbd8f40f0
 langcode: fr
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bootstrap
 _core:
-  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: bartik_footer
-theme: bartik
-region: footer_fifth
+  default_config_hash: h06zhb3xV9_2_3Zy9NsyylL7YBaEDlMwMEqNwAn8kMo
+id: bootstrap_footer
+theme: bootstrap
+region: footer
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Menu Pied de page'
+  label: 'Footer menu'
   provider: system
   label_display: '0'
   level: 1

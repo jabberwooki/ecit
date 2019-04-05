@@ -1,0 +1,22 @@
+uuid: 481efa3b-9bee-42a1-b67e-22aaf77a7815
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ecit
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ecit_help
+theme: ecit
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  provider: help
+  label_display: '0'
+visibility: {  }

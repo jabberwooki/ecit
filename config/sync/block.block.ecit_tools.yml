@@ -1,4 +1,4 @@
-uuid: ab071e2d-1dbe-43ba-a618-f29d6a8dd398
+uuid: 81e44c43-da30-4cd0-8133-b336ac48e3cd
 langcode: fr
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - ecit
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
-id: bartik_tools
-theme: bartik
+id: ecit_tools
+theme: ecit
 region: sidebar_first
 weight: 0
 provider: null

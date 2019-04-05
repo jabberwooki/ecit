@@ -1,13 +1,13 @@
-uuid: 2192035d-0ed5-473b-ba09-07484b7b50d9
+uuid: cca2cc17-5baf-49d6-958a-c08bc38e37c1
 langcode: fr
 status: true
 dependencies:
   theme:
-    - bartik
+    - ecit
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
-id: bartik_page_title
-theme: bartik
+id: ecit_page_title
+theme: ecit
 region: content
 weight: -50
 provider: null

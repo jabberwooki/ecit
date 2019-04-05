@@ -1,0 +1,25 @@
+uuid: d2e7024b-4fbb-4f7d-867f-5b72921f38ba
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ecit
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: ecit_branding
+theme: ecit
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marque du site'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
